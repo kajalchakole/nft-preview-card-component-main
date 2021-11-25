@@ -17,7 +17,7 @@ body {
 
 #container {
     background-color: hsl(216, 50%, 16%);
-    width: 280px;
+    width: 320px;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -41,7 +41,7 @@ header h3 {
 .card__details {
     font-weight: 300;
     font-size: 14px;
-    color: rgb(173, 172, 172);
+    color: rgb(94, 120, 156);
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -61,7 +61,7 @@ header h3 {
 }
 
 hr {
-    border-color: rgb(173, 172, 172);
+    border-color: hsl(215, 32%, 27%);
 }
 
 .card__credits {
@@ -86,4 +86,8 @@ hr {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.highlightme {
+    color: hsl(215, 51%, 70%);
 }
